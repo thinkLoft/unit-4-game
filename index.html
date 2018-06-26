@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Unit-4-Game: Crytal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <!-- Local JQuery -->
+  <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+  <!-- Overall Bootstrap Grid -->
+  <div class="container">
+
+    <!-- Jumbotron with Title -->
+    <div class="jumbotron">
+      <h1 class="text-center">
+        <strong>Unit-4-Game: Crytal</strong>
+      </h1>
+      <hr>
+    </div>
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h2>Target Number:
+          <div id="number"></div>
+        </h2>
+        <div id="buttons">
+          <button id="krystal-0" class="letter-button letter letter-button-color">
+            <img src="assets/images/gem.ico">
+          </button>
+          <button id="krystal-1" class="letter-button letter letter-button-color">
+            <img src="assets/images/Emerald.ico">
+          </button>
+          <button id="krystal-2" class="letter-button letter letter-button-color">
+            <img src="assets/images/Sapphire.ico">
+          </button>
+          <button id="krystal-3" class="letter-button letter letter-button-color">
+            <img src="assets/images/Zircon.png">
+          </button>
+        </div>
+        <button id="clear">clear</button>
+        <button id="reset">reset</button>
+        <h2>Score:
+          <div id="display">0</div>
+        </h2>
+      </div>
+
+      <div class="col-lg-6">
+        <h2>Wins:
+          <div id="wins">0</div>
+        </h2>
+        <h2>Losses:
+          <div id="loss">0</div>
+        </h2>
+      </div>
+    </div>
+  </div>
+</body>
